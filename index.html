@@ -867,18 +867,14 @@
   <link rel="apple-touch-icon" href="images/download.png">
   <meta name="msapplication-TileImage" content="https://weidilabruna.com.br/wp-content/uploads/2024/10/download.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <script>!function (i, n) { i._plt = i._plt || (n && n.timeOrigin ? n.timeOrigin + n.now() : Date.now()) }(window, performance);</script>
-  <link rel="preload"
-    href="https://scripts.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/players/69978eaf055018086ea1009b/v4/player.js"
-    as="script">
-  <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
-  <link rel="preload"
-    href="https://cdn.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/69963bc70437cf6bfc663a32/main.m3u8"
-    as="fetch">
-  <link rel="dns-prefetch" href="https://cdn.converteai.net">
-  <link rel="dns-prefetch" href="https://scripts.converteai.net">
-  <link rel="dns-prefetch" href="https://images.converteai.net">
-  <link rel="dns-prefetch" href="https://api.vturb.com.br">
+ <script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/players/69de66df2f36a1e821e7f7e7/v4/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/69de64ccf25d6e735b3eefa7/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br">
 </head>
 
 <body
@@ -927,13 +923,13 @@
             data-id="50c0a598" data-element_type="widget" data-widget_type="html.default">
             <div class="elementor-widget-container">
               <div class="vsl-wrap">
-                <vturb-smartplayer id="vid-69978eaf055018086ea1009b"
+                <vturb-smartplayer id="vid-69de66df2f36a1e821e7f7e7"
                   style="display:block;margin:0 auto;width:100%;max-width:400px;">
                 </vturb-smartplayer>
               </div>
               <script type="text/javascript">
                 var s = document.createElement("script");
-                s.src = "https://scripts.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/players/69978eaf055018086ea1009b/v4/player.js", s.async = !0, document.head.appendChild(s);
+                s.src = "https://scripts.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/players/69de66df2f36a1e821e7f7e7/v4/player.js", s.async = !0, document.head.appendChild(s);
               </script>
             </div><!-- fecha .elementor-widget-container do 50c0a598 -->
           </div><!-- fecha .elementor-element do 50c0a598 -->
@@ -1736,13 +1732,6 @@
                     var qp = new URLSearchParams(location.search);
                     if (qp.get('force_mobile') === 'true') return;
 
-                    // Heurística mobile (block tablets e desktops)
-                    var ua = navigator.userAgent || navigator.vendor || '';
-                    var isMobileUA = /Android|webOS|iPhone|iPod|IEMobile|BlackBerry|Opera Mini|CriOS|Mobile/i.test(ua);
-                    var hasTouch = (('maxTouchPoints' in navigator && navigator.maxTouchPoints > 0) || 'ontouchstart' in window);
-                    var smallViewport = Math.min(window.innerWidth, window.innerHeight) <= 767; // <=767 = celular
-                    var isMobile = isMobileUA || (smallViewport && hasTouch);
-
                     if (!isMobile) {
                       // Bloqueia visualização (fundo branco + msg opcional)
                       document.documentElement.style.height = '100%';
@@ -2060,12 +2049,12 @@
 
                 <script>!function (i, n) { i._plt = i._plt || (n && n.timeOrigin ? n.timeOrigin + n.now() : Date.now()) }(window, performance);</script>
                 <link rel="preload"
-                  href="https://scripts.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/players/69978eaf055018086ea1009b/v4/player.js"
+                  href="https://scripts.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/players/69de66df2f36a1e821e7f7e7/v4/player.js"
                   as="script">
                 <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js"
                   as="script">
                 <link rel="preload"
-                  href="https://cdn.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/69963bc70437cf6bfc663a32/main.m3u8"
+                  href="https://cdn.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/69de64ccf25d6e735b3eefa7/main.m3u8"
                   as="fetch">
                 <link rel="dns-prefetch" href="https://cdn.converteai.net">
                 <link rel="dns-prefetch" href="https://scripts.converteai.net">
@@ -2076,7 +2065,7 @@
                   // === VTurb Quality Boost (pré-aquecimento + fetch prioritário) ===
                   (function () {
                     try {
-                      var PLAYLIST = "https://cdn.converteai.net/256b71b2-4b38-4604-b8ee-044b72c0896c/69963bc70437cf6bfc663a32/main.m3u8";
+                      var PLAYLIST = "https://cdn.converteai.net/52fff2da-9d50-4ca7-8305-99623dfd9bd1/69de64ccf25d6e735b3eefa7/main.m3u8";
 
                       // 1) Pré-aquece o TLS e o cache do CDN com prioridade alta
                       var l = document.createElement('link');
@@ -2190,7 +2179,7 @@
                 <script>
                   // Safari/iOS VTurb Resume (7 dias) — v3
                   (function () {
-                    var VIDEO_ID = '69978eaf055018086ea1009b';   // << confira
+                    var VIDEO_ID = '69de66df2f36a1e821e7f7e7';   // << confira
                     var TTL_MS = 7 * 24 * 60 * 60 * 1000;
                     var ID_KEY = 'wb:visitorId';
                     function now() { return Date.now(); }
@@ -2348,7 +2337,7 @@
                 <script>
                   (function () {
                     // ---- CONFIG ----
-                    var VIDEO_ID = '69978eaf055018086ea1009b';   // mesmo do seu player
+                    var VIDEO_ID = '69de66df2f36a1e821e7f7e7';   // mesmo do seu player
                     var DEFAULT_UTM = {
                       utm_source: 'instagram',
                       utm_medium: 'bio',
